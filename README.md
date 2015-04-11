@@ -31,7 +31,7 @@ gulp.task('html', function(){
     .pipe(rename({
       extname: '.html'
     }))
-    .pipe(gulp.dest('dest/'));
+    .pipe(gulp.dest('dist/'));
 });
 ```
 
@@ -46,9 +46,9 @@ Data object to pass to the template or function taking the template's path as ar
 ### options.partials
 Type: `String|Array`
 
-Glob or Array of globs.
+Glob or array of globs.
 
-#### options.getPartialName
+### options.getPartialName
 Type: `Function`
 
-Transformation function for partial names taking the partials path as argument (see example above).
+Transformation function for partial names taking the partial's path as argument (see example above).
