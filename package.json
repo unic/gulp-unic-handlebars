@@ -1,0 +1,27 @@
+{
+  "name": "gulp-unic-handlebars",
+  "version": "0.1.0",
+  "description": "Compile/precompile handlebars templates",
+  "license": "Apache 2.0",
+  "author": {
+    "name": "Unic AG"
+  },
+  "main": "./index.js",
+  "dependencies": {
+    "glob": "^5.0.5",
+    "gulp-util": "^3.0.4",
+    "handlebars": "^3.0.1",
+    "lodash": "^3.6.0",
+    "through2": "^0.6.5"
+  },
+  "scripts": {
+    "pretest": "npm i",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "devDependencies": {
+    "event-stream": "^3.3.0",
+    "gulp": "^3.8.11",
+    "gulp-rename": "^1.2.2",
+    "mocha": "^2.2.4"
+  }
+}
