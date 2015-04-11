@@ -22,7 +22,6 @@
     "event-stream": "^3.3.0",
     "gulp": "^3.8.11",
     "gulp-rename": "^1.2.2",
-    "gulp-unic-handlebars": "git://github.com/unic/gulp-unic-handlebars.git",
     "mocha": "^2.2.4"
   }
 }
